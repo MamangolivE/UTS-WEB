@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portofolio Zulfikar</title>
+  <meta name="description" content="Portofolio Zulfikar Aryawinata — projek, pendidikan, dan sertifikat." />
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+      <div class="brand" aria-hidden="false">Portofolio <span class="accent-blue">Zulfikar</span></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" aria-label="Beranda">Beranda</a></li>
+        <li><a href="#about" aria-label="Tentang">Tentang</a></li>
+        <li><a href="#projects" aria-label="Projek">Projek</a></li>
+        <li><a href="#certs" aria-label="Sertifikat">Sertifikat</a></li>
+        <li><a href="#contact" aria-label="Kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero fade-section">
+      <div class="container fade-in">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <h1>Halo, saya <span class="accent-green">Zulfikar Aryawinata</span></h1>
+            <p class="lead">Saya adalah seorang Mahasiswa Universitas Mulawarman. Menempuh Pendidikan di Fakultas Teknik Universitas Mulawarman</p>
+
+            <div class="hero-cta" style="margin-top:16px;">
+              <a class="btn" href="#projects">Lihat Projek</a>
+              <a class="btn ghost" href="#contact" style="margin-left:10px">Hubungi</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="info-card">
+              <h3>Jejak Pendidikan & Aktivitas</h3>
+              <p><strong>SD:</strong> SDN Negeri 1 Anggana — <em>Aktif di ekstrakulikuler Pramuka</em></p>
+              <p><strong>SMP:</strong> SMP Negeri 1 Anggana — <em>Aktif di ekstrakulikuler Pramuka, Bulutangkis</em></p>
+              <p><strong>SMA:</strong> SMA Negeri 1 Anggana — <em>Pernah mengikuti Olimpiade Sains Nasional</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section about fade-section">
+      <div class="container fade-in">
+        <h2 class="section-title">Tentang Saya</h2>
+
+        <div class="about-grid" style="margin-top:18px">
+          <div class="about-card">
+            <h3>Informasi Pribadi</h3>
+            <p><strong>Nama lengkap:</strong> Zulfikar Aryawinata</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> ANGGANA, 18 Januari 2006</p>
+            <p><strong>Asal Universitas:</strong> Universitas Mulawarman</p>
+            <p><strong>Email:</strong> <a href="mailto:zulfikararyawinata650@gmail.com">zulfikararyawinata650@gmail.com</a></p>
+            <p><strong>Alamat:</strong> Jl.Masjid, RT.07 No.50 ANGGANA, Kutai Kartanegara.</p>
+          </div>
+
+          <div class="about-card">
+            <h3>Ringkasan Singkat</h3>
+            <p>Saya adalah seorang laki-laki kelahiran 18 Januari 2006 yang memiliki impian besar untuk menjadi seorang game developer. Saat 
+              ini saya sedang menempuh pendidikan S1 Informatika di Fakultas Teknik, Universitas Mulawarman sebagai langkah awal untuk 
+              mewujudkan cita-cita tersebut. Saat ini memiliki keahlian di bahasa pemrograman Python dan C++.</p>
+          </div>
+        </div>
+        <div style="margin-top:22px">
+          <h4>Riwayat Pendidikan & Ekstra</h4>
+          <ul style="margin:12px 0 0 18px;color:var(--muted)">
+            <li>SDN Negeri 1 Anggana — Ekstrakurikuler: Pramuka</li>
+            <li>SMP Negeri 1 Anggana — Ekstrakurikuler: Pramuka, Bulutangkis</li>
+            <li>SMA Negeri 1 Anggana — Peserta Olimpiade Sains Nasional</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section projects fade-section">
+      <div class="container fade-in">
+        <h2 class="section-title">Projek</h2>
+
+        <div class="cards" style="margin-top:18px">
+          <article class="card" role="article">
+            <div class="card-header">Aplikasi Manajemen Pendaftaran Lomba — MIT Week</div>
+            <div class="card-body">
+              <p>Deskripsi singkat: Sistem pendaftaran peserta, verifikasi data, manajemen kategori lomba, dan export daftar peserta.
+                Sebagai Projek Akhir praktikum Algoritma Pemrograman Dasar.
+              </p>
+              <p style="margin-top:8px"><strong>Teknologi:</strong> Python</p>
+            </div>
+            <div class="card-footer" style="margin-top:8px">
+              <button class="btn small" onclick="openModal('mit')">Lihat detail</button>
+            </div>
+          </article>
+          <article class="card" role="article">
+            <div class="card-header">Manajemen Tiket — Mini Playground</div>
+            <div class="card-body">
+              <p>Deskripsi singkat: Sistem pembelian & validasi tiket, manajemen harga/durasi. Sebagai Projek Akhir Praktikum Algoritma
+                Pemrograman Lanjut.
+              </p>
+              <p style="margin-top:8px"><strong>Teknologi:</strong> C++</p>
+            </div>
+            <div class="card-footer" style="margin-top:8px">
+              <button class="btn small" onclick="openModal('play')">Lihat detail</button>
+            </div>
+          </article>
+          <article class="card" role="article">
+            <div class="card-header">Manajemen Toko — HotWheels</div>
+            <div class="card-body">
+              <p>Deskripsi singkat: Projek untuk Post-Test Praktikum Algoritma Pemrograman Lanjut. Inventaris barang, fitur kasir sederhana,
+                dan pencarian cepat produk.</p>
+              <p style="margin-top:8px"><strong>Teknologi:</strong> C++</p>
+            </div>
+            <div class="card-footer" style="margin-top:8px">
+              <button class="btn small" onclick="openModal('hot')">Lihat detail</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="certs" class="section certs fade-section">
+      <div class="container fade-in">
+        <h2 class="section-title">Sertifikat</h2>
+
+        <div class="cert-grid" style="margin-top:18px">
+          <figure class="cert">
+            <img src="sertifikat python.jpg" alt="Sertifikat Python">
+            <figcaption>Python — Sertifikat</figcaption>
+          </figure>
+
+          <figure class="cert">
+            <img src="piagam national olympic committee.jpg" alt="Sertifikat OSN">
+            <figcaption>Olimpiade Sains Nasional</figcaption>
+          </figure>
+
+          <figure class="cert">
+            <img src="sertifikat seminar MIT WEEK.jpg" alt="Sertifikat Seminar Nasional">
+            <figcaption>Seminar — Sertifikat</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section contact fade-section">
+      <div class="container fade-in">
+        <h2 class="section-title">Kontak</h2>
+        <p class="muted">Klik ikon untuk membuka aplikasi terkait. Ganti tautan di file HTML dengan data asli kamu.</p>
+        <div class="contact-row" style="margin-top:12px">
+          <a class="contact-btn" href="mailto:your.email@example.com" aria-label="Email" title="Email">
+            <i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a class="contact-btn" href="https://wa.me/+6282149657514" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">
+            <i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a class="contact-btn" href="https://instagram.com/mamangolive" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+            <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a class="contact-btn" href="https://www.facebook.com/share/1PXUQE5cHz/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+            <i class="fa-brands fa-facebook fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <a class="contact-btn" href="https://twitter.com/mamangoliv53591" target="_blank" rel="noopener" aria-label="Twitter" title="Twitter">
+            <i class="fa-brands fa-x-twitter fa-2x" aria-hidden="true"></i>
+
+          <a class="contact-btn" href="https://www.linkedin.com/in/zulfikar-aryawinata-527676336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+          target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <footer class="site-footer" style="margin-top:22px">
+          <p>© <span id="year"></span> Zulfikar Aryawinata.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-inner" role="dialog" aria-modal="true" aria-label="Detail projek">
+      <button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
