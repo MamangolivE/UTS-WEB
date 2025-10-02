@@ -224,30 +224,30 @@ body{
   opacity: 1;
   transform: translateY(0);
 }
-.projects, .certs {
+.projek, .sertifikat {
   background: #111;
   border-radius: 12px;
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
-.projects:hover, .certs:hover {
+.projek:hover, .sertifikat:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 15px 25px rgba(0, 255, 150, 0.25), 
               0 8px 15px rgba(0, 150, 255, 0.25);
 }
-.projects img, .certs img {
+.projek img, .sertifikat img {
   width: 100%;
   border-radius: 10px;
   transition: transform 0.4s ease;
 }
-.projects:hover img, .certs:hover img {
+.projek:hover img, .sertifikat:hover img {
   transform: scale(1.05);
 }
-.projects h3, .certs h3 {
+.projek h3, .sertifikat h3 {
   transition: color 0.3s ease;
 }
-.projects:hover h3, .certs:hover h3 {
+.projek:hover h3, .sertifikat:hover h3 {
   color: #00b894;
 }
 @media (max-width:980px){
