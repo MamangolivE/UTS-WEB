@@ -14,11 +14,11 @@
 *{
     box-sizing:border-box
 }
-body{
-  margin:0;
-  background:linear-gradient(180deg,var(--bg) 0%, #07111a 100%);
-  color:var(--text);
-  -webkit-font-smoothing:antialiased
+body {
+  background: linear-gradient(135deg, #0a0a0a, #012b20, #001f3f);
+  color: #fff;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 .container{
     max-width:1100px;
