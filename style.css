@@ -141,22 +141,11 @@ body{
     padding:22px;
     border-radius:12px
 }
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center; /* biar rata tengah */
-}
+
 .cards{
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  background: #111;
-  border-radius: 12px;
-  padding: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-  max-width: 300px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px
 }
 .card{
   background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
@@ -168,32 +157,27 @@ body{
     margin-bottom:8px
 }
 .card-body{
-  color:var(--muted);
-  font-size:14px
+    color:var(--muted);
+    font-size:14px
 }
 .card-footer{
-  margin-top:12px
+    margin-top:12px
 }
 
 .cert-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:16px
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px
 }
 .cert{
   background:var(--card);padding:8px;border-radius:10px;text-align:center
 }
 .cert img{
-  width: 100%;
-  height: auto; /* biar nggak ketarik */
-  border-radius: 8px;
-  object-fit: contain;
+    width:100%;
+    height:auto;
+    border-radius:8px
 }
-.cert h3{
-  margin-top: 10px;
-  text-align: center;
-  font-size: 16px;
-}
+
 .contact-row{
     display:flex;
     gap:16px;
@@ -264,7 +248,7 @@ body{
   transition: color 0.3s ease;
 }
 .card:hover h3, .cert:hover h3 {
-  color: #2fa66a;
+  color: #00b894;
 }
 @media (max-width:980px){
   .hero-inner{flex-direction:column}
