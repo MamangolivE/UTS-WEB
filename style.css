@@ -15,10 +15,10 @@
     box-sizing:border-box
 }
 body {
-  background: linear-gradient(135deg, #0a0a0a, #012b20, #001f3f);
+  background: linear-gradient(-45deg, #000, #013220, #001f3f, #000);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
   color: #fff;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
 }
 .container{
     max-width:1100px;
@@ -241,4 +241,9 @@ body {
   .about-grid{grid-template-columns:1fr}
   .cert-grid{grid-template-columns:1fr}
   .hero-card{width:100%}
+}
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
