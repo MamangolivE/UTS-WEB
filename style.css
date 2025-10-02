@@ -17,17 +17,13 @@
 body {
   background: 
     repeating-linear-gradient(
-      135deg,
+      to bottom,
       #000 0px,
-      #000 40px,
-      #013220 40px,
-      #013220 42px,
-      #001f3f 42px,
-      #001f3f 44px
+      #000 50px,
+      #013220 51px,
+      #001f3f 52px
     );
   color: #fff;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
 }
 .container{
     max-width:1100px;
