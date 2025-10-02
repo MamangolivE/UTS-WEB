@@ -14,13 +14,11 @@
 *{
     box-sizing:border-box
 }
-body {
-  background: 
-    linear-gradient(to right, #013220 1px, transparent 1px),
-    linear-gradient(to bottom, #001f3f 1px, transparent 1px);
-  background-size: 60px 60px;
-  background-color: #000;
-  color: #fff;
+body{
+  margin:0;
+  background:linear-gradient(180deg,var(--bg) 0%, #07111a 100%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased
 }
 .container{
     max-width:1100px;
