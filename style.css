@@ -16,13 +16,10 @@
 }
 body {
   background: 
-    repeating-linear-gradient(
-      to bottom,
-      #000 0px,
-      #000 50px,
-      #013220 51px,
-      #001f3f 52px
-    );
+    linear-gradient(to right, #013220 1px, transparent 1px),
+    linear-gradient(to bottom, #001f3f 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-color: #000;
   color: #fff;
 }
 .container{
