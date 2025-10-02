@@ -246,7 +246,7 @@ body{
   transition: color 0.3s ease;
 }
 .card:hover h3, .cert:hover h3 {
-  color: #00b894;
+  color: #2fa66a;
 }
 @media (max-width:980px){
   .hero-inner{flex-direction:column}
