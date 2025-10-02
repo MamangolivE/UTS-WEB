@@ -163,35 +163,18 @@ body{
 .card-footer{
     margin-top:12px
 }
-.cert-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  justify-items: center;
+.cert-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px
 }
-.cert {
-  background: #111;
-  border-radius: 12px;
-  padding: 12px;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 320px;
+.cert{
+  background:var(--card);padding:8px;border-radius:10px;text-align:center
 }
-.cert img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  object-fit: contain;
-}
-.cert figcaption {
-  margin-top: 8px;
-  font-size: 15px;
-  color: #ddd;
-}
-.cert:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 15px 25px rgba(0, 255, 150, 0.25), 
-              0 8px 15px rgba(0, 150, 255, 0.25);
+.cert img{
+    width:100%;
+    height:auto;
+    border-radius:8px
 }
 .contact-row{
     display:flex;
