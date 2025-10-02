@@ -224,30 +224,30 @@ body{
   opacity: 1;
   transform: translateY(0);
 }
-.card-body, .cert-grid {
+.projects, .certs {
   background: #111;
   border-radius: 12px;
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
-.card-body:hover, .cert-grid:hover {
+.projects:hover, .certs:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 15px 25px rgba(0, 255, 150, 0.25), 
               0 8px 15px rgba(0, 150, 255, 0.25);
 }
-.card-body img, .cert-grid img {
+.projects img, .certs img {
   width: 100%;
   border-radius: 10px;
   transition: transform 0.4s ease;
 }
-.card-body:hover img, .cert-grid:hover img {
+.projects:hover img, .certs:hover img {
   transform: scale(1.05);
 }
-.card-body h3, .cert-grid h3 {
+.projects h3, .certs h3 {
   transition: color 0.3s ease;
 }
-.card-body:hover h3, .cert-grid:hover h3 {
+.projects:hover h3, .certs:hover h3 {
   color: #00b894;
 }
 @media (max-width:980px){
