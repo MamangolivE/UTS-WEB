@@ -83,6 +83,23 @@ body{
 .hero-card{
     width:360px
 }
+.hero-photo {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo img {
+  max-width: 280px;
+  border-radius: 50%;
+  border: 4px solid #0984e3; /* biru */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.hero-photo img:hover {
+  transform: scale(1.05);
+}
 .info-card{
   background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
   padding:18px;border-radius:var(--radius);
